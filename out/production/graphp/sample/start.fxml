@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="800.0" style="-fx-background-color: #3b5998;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.start">
+   <children>
+      <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="274.0" layoutY="165.0" onAction="#switchtopanel1" prefHeight="117.0" prefWidth="220.0" ripplerFill="BLACK" text="START" textFill="WHITE">
+         <font>
+            <Font name="Calibri Italic" size="30.0" />
+         </font>
+      </JFXButton>
+      <ImageView fx:id="img1" fitHeight="124.0" fitWidth="262.0" layoutX="36.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gimg3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img2" fitHeight="174.0" fitWidth="262.0" layoutX="497.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gimg5.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="182.0" layoutY="76.0" text="GRAPH ALGORITHMS" textFill="#f4b41a">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
